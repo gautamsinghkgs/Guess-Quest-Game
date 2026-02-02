@@ -9,7 +9,6 @@ The goal is to guess the correct number with helpful hints provided after each a
 ## 🚀 Live Demo
 
 🔗 **Play Here:**  
-https://your-demo-link-here  
 
 > [(Replace this link with your deployed Netlify / GitHub Pages URL)](https://gautamsinghkgs.github.io/Guess-Quest-Game/)
 
