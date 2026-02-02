@@ -10,7 +10,7 @@ The goal is to guess the correct number with helpful hints provided after each a
 
 🔗 **Play Here:**  
 
-> [(Replace this link with your deployed Netlify / GitHub Pages URL)](https://gautamsinghkgs.github.io/Guess-Quest-Game/)
+> (https://gautamsinghkgs.github.io/Guess-Quest-Game/)
 
 ---
 
