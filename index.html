@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess The Number Game</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="gamebox">
+        <div class="heading">
+            <h2>🎯 Guess <span>The Number</span></h2>
+        </div>
+        
+        <p class="par">Enter a Maximum Number:</p>
+        <div class="startgame">
+            
+        <input type="number" placeholder="Enter max Number" id="max">
+        <button onclick="startGame()" id="startbtn">Start Game</button>
+        </div>
+
+        <p class="par">Enter Your Guess:    </p>
+        <div class="checkguess">
+        
+        <input type="number" placeholder="Enter Your Guess" id="guess" disabled>
+        <button onclick="checkGuess()" id="guessbtn" disabled>Guess</button>
+        </div>
+
+        <p id="result"></p>
+        
+        <script src="script.js"></script>
+    </div>
+</body>
+</html>
